@@ -1,0 +1,5 @@
+#+TITLE: Gardening Experiments
+#+DESCRIPTION: My personal blog for documenting all my plant-related experiments and beyond.
+#+AUTHOR: Ved Malandkar
+
+
