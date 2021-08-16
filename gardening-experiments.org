@@ -2,6 +2,7 @@
 #+DESCRIPTION: My personal blog for documenting all my plant-related experiments and beyond.
 #+AUTHOR: Ved Malandkar
 #+EXPORT_FILE_NAME: index.html
+#+HTML_HEAD: <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
 
 * Aloe Vera Leaf Rooting
 ** The backstory:
@@ -34,7 +35,16 @@ Step by step procedure of how I went about doing this:
 3. I cleaned the surface of the bigger Aloe leaf of the Aloe gel, by using the tissue paper
 4. Finally, I put tape over and around the slit area, to ensure that the implant area heals properly without drying up
 ** How the Aloe leaf has been doing so far:
-*** First day after the implant
-#+CAPTION: The Aloe leaf at Day 1
+*** 1st day after the implant
+#+CAPTION: Implant site the day after implant
 #+ATTR_HTML: :width 200
 [[./imgs/day-1.jpg]]
+*** 2nd day after the implant
+#+CAPTION: Back side of Aloe leaf 2 days ATI
+#+ATTR_HTML: :width 200
+[[./imgs/day-2-back.jpg]]
+
+I also noticed a dark dot on the front of the Aloe leaf
+#+CAPTION: Front side of Aloe leaf 2 days ATI
+#+ATTR_HTML: :width 200
+[[./imgs/day-2-front.jpg]]
