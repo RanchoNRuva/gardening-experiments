@@ -21,3 +21,20 @@ After a lot of thinking, this is what I came up with:
 + I implant the Aloe leaf into another Aloe leaf I cut off from the new Aloe plant I bought in order to do one or both of these things:
   - Regrow or regenerate the leaf using the nutrients and any possible healing that can be derived from the Aloe leaf's cellular technology
   - Have the cells of the Aloe leaf grow alongside the cells of the Aloe leaf into which it was implanted, and effectively have it become a part of the Aloe leaf (kind of like a graft and a tissue culture combined)
+** The procedure:
+Materials I used
++ Tape
++ A blade
++ A tissue paper
++ The two Aloe leafs
+
+Step by step procedure of how I went about doing this:
+1. I cut a rectangular (without one of the shorter sides) slit into the back of the bigger Aloe leaf with the blade (without cutting into the front of the Aloe leaf)
+2. I inserted the smaller Aloe leaf which I wanted to propagate, into the bigger Aloe leaf
+3. I cleaned the surface of the bigger Aloe leaf of the Aloe gel, by using the tissue paper
+4. Finally, I put tape over and around the slit area, to ensure that the implant area heals properly without drying up
+** How the Aloe leaf has been doing so far:
+*** First day after the implant
+#+CAPTION: The Aloe leaf at Day 1
+#+ATTR_HTML: :width 200
+[[./imgs/day-1.jpg]]
