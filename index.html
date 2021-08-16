@@ -3,15 +3,16 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-08-16 Mon 09:53 -->
+<!-- 2021-08-16 Mon 08:10 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Gardening Experiments</title>
+<meta name="generator" content="Org mode" />
 <meta name="author" content="Ved Malandkar" />
-<meta name="description" content="My personal blog for documenting all my plant-related experiments and beyond." />
-<meta name="generator" content="Org Mode" />
-<style>
-  #content { max-width: 60em; margin: auto; }
+<meta name="description" content="My personal blog for documenting all my plant-related experiments and beyond."
+ />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
   .title  { text-align: center;
              margin-bottom: .2em; }
   .subtitle { text-align: center;
@@ -32,9 +33,8 @@
   #postamble p, #preamble p { font-size: 90%; margin: .2em; }
   p.verse { margin-left: 3%; }
   pre {
-    border: 1px solid #e6e6e6;
-    border-radius: 3px;
-    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
     padding: 8pt;
     font-family: monospace;
     overflow: auto;
@@ -43,21 +43,21 @@
   pre.src {
     position: relative;
     overflow: auto;
+    padding-top: 1.2em;
   }
   pre.src:before {
     display: none;
     position: absolute;
-    top: -8px;
-    right: 12px;
+    background-color: white;
+    top: -10px;
+    right: 10px;
     padding: 3px;
-    color: #555;
-    background-color: #f2f2f299;
+    border: 1px solid black;
   }
   pre.src:hover:before { display: inline; margin-top: 14px;}
   /* Languages per Org manual */
   pre.src-asymptote:before { content: 'Asymptote'; }
   pre.src-awk:before { content: 'Awk'; }
-  pre.src-authinfo::before { content: 'Authinfo'; }
   pre.src-C:before { content: 'C'; }
   /* pre.src-C++ doesn't work in CSS */
   pre.src-clojure:before { content: 'Clojure'; }
@@ -193,42 +193,71 @@
   .org-info-js_search-highlight
     { background-color: #ffff00; color: #000000; font-weight: bold; }
   .org-svg { width: 90%; }
+  /*]]>*/-->
 </style>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
 </head>
 <body>
-<div id="content" class="content">
+<div id="content">
 <h1 class="title">Gardening Experiments</h1>
-<div id="table-of-contents" role="doc-toc">
+<div id="table-of-contents">
 <h2>Table of Contents</h2>
-<div id="text-table-of-contents" role="doc-toc">
+<div id="text-table-of-contents">
 <ul>
-<li><a href="#orge6445ed">1. Aloe Vera Leaf Rooting</a>
+<li><a href="#orge91d43c">1. Aloe Vera Leaf Rooting</a>
 <ul>
-<li><a href="#orgb549062">1.1. The backstory:</a></li>
-<li><a href="#orgf991e2b">1.2. The propagation method:</a></li>
+<li><a href="#orgd69876b">1.1. The backstory:</a></li>
+<li><a href="#org51d4899">1.2. The propagation method:</a></li>
+<li><a href="#orgd41bbfd">1.3. The procedure:</a></li>
+<li><a href="#orgaaf65fe">1.4. How the Aloe leaf has been doing so far:</a>
+<ul>
+<li><a href="#orgc0526d5">1.4.1. First day after the implant</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orge6445ed" class="outline-2">
-<h2 id="orge6445ed"><span class="section-number-2">1.</span> Aloe Vera Leaf Rooting</h2>
+<div id="outline-container-orge91d43c" class="outline-2">
+<h2 id="orge91d43c"><span class="section-number-2">1</span> Aloe Vera Leaf Rooting</h2>
 <div class="outline-text-2" id="text-1">
 </div>
-<div id="outline-container-orgb549062" class="outline-3">
-<h3 id="orgb549062"><span class="section-number-3">1.1.</span> The backstory:</h3>
+<div id="outline-container-orgd69876b" class="outline-3">
+<h3 id="orgd69876b"><span class="section-number-3">1.1</span> The backstory:</h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
 I used to have a Aloe Vera plant, which lived for 4 years, until it rotted. All that remained of that plant was a 1 and a half inch leaf, which was drying up quickly. I had to propagate this plant using this ONE leaf. I had one go at it&#x2026;
 </p>
 
 <p>
-Fast forward one month: I barely watered the Aloe leaf in fear of it rotting. The leaf was doing pretty good, but a good chunk of it had dried up. I had to slow down this &ldquo;drying up&rdquo; effectively till the leaf grew roots. I started to dip the leaf in water and let it sit on the soil in hopes of the leaf absorbing the few drops of water that stayed on it, while letting the rest of the water evaporate, or seep into the (dry) soil. This method of watering effectively watered the leaf really well, while preventing fungus. All was good, till the huge mess up.
+Fast forward one month: I barely watered the Aloe leaf in fear of it rotting. The leaf was doing pretty good, but a good chunk of it had dried up. I had to slow down this "drying up" effectively till the leaf grew roots. I started to dip the leaf in water and let it sit on the soil in hopes of the leaf absorbing the few drops of water that stayed on it, while letting the rest of the water evaporate, or seep into the (dry) soil. This method of watering effectively watered the leaf really well, while preventing fungus. All was good, till the huge mess up.
 </p>
 
 <p>
-The huge mess up: So as per my usual routine of watering the Aloe leaf, I dipped the Aloe Leaf into the water. However, this time, I noticed that the cup I was using was a copper cup, and copper was known to have anti-bacterial and anti-fungal properties. So, theoretically, I could just let the leaf sit in the cup for a bit along with the water, in order to have the leaf absorb a good amount of water, in an effort to revive the dried up parts of the leaf (if its possible), all while avoiding fungus with the properties of the copper cup. So I let the leaf sit in the water. I, however, happened to be busy with something else at the same time, and I totally forgot about the Aloe leaf. That is, until the end of the day, when I noticed the cup and the absolutely SOAKED Aloe leaf. I took the Aloe leaf out of the water in complete horror as the leaf looked extremely thin, and soaked. The Aloe leaf was now either completely dead, or it had some surviving Aloe cells left. Now, I couldn&rsquo;t do my previous method of watering the Aloe leaf, because the leaf would dry up in no time, so over the next few days, I watered the Aloe leaf more frequently, using the very method which messed up my Aloe Leaf, as that was the only method of watering which could compensate for the drying time of the Aloe leaf, while preventing any fungus from catching on to the Aloe leaf. Good news: The Aloe leaf hadn&rsquo;t caught any fungus, and seemed to be keeping it&rsquo;s moisture for decent amount of times for its condition. Bad news: Considering how thin the Aloe leaf was, there was no way it was going to grow any roots.
+The huge mess up: So as per my usual routine of watering the Aloe leaf, I dipped the Aloe Leaf into the water. However, this time, I noticed that the cup I was using was a copper cup, and copper was known to have anti-bacterial and anti-fungal properties. So, theoretically, I could just let the leaf sit in the cup for a bit along with the water, in order to have the leaf absorb a good amount of water, in an effort to revive the dried up parts of the leaf (if its possible), all while avoiding fungus with the properties of the copper cup. So I let the leaf sit in the water. I, however, happened to be busy with something else at the same time, and I totally forgot about the Aloe leaf. That is, until the end of the day, when I noticed the cup and the absolutely SOAKED Aloe leaf. I took the Aloe leaf out of the water in complete horror as the leaf looked extremely thin, and soaked. The Aloe leaf was now either completely dead, or it had some surviving Aloe cells left. Now, I couldn't do my previous method of watering the Aloe leaf, because the leaf would dry up in no time, so over the next few days, I watered the Aloe leaf more frequently, using the very method which messed up my Aloe Leaf, as that was the only method of watering which could compensate for the drying time of the Aloe leaf, while preventing any fungus from catching on to the Aloe leaf. Good news: The Aloe leaf hadn't caught any fungus, and seemed to be keeping it's moisture for decent amount of times for its condition. Bad news: Considering how thin the Aloe leaf was, there was no way it was going to grow any roots.
 </p>
 
 <p>
@@ -236,7 +265,7 @@ Luckily, the liquid inside the Aloe leaf has anti-bacterial and anti-fungal prop
 </p>
 
 <p>
-I also happened to buy another Aloe plant which I would end up using for my propagation method. At this point, you may be wondering, why I&rsquo;m still trying to propagate this Aloe leaf. Well, it is mostly because, it would be really cool to clone a whole plant which was dead except for one leaf, and then have the leaf successfully grow into a full fledged Aloe plant, even with the extremely rare odds, and the setbacks.
+I also happened to buy another Aloe plant which I would end up using for my propagation method. At this point, you may be wondering, why I'm still trying to propagate this Aloe leaf. Well, it is mostly because, it would be really cool to clone a whole plant which was dead except for one leaf, and then have the leaf successfully grow into a full fledged Aloe plant, even with the extremely rare odds, and the setbacks.
 </p>
 
 <p>
@@ -244,8 +273,8 @@ I had to devise a new propagation method.
 </p>
 </div>
 </div>
-<div id="outline-container-orgf991e2b" class="outline-3">
-<h3 id="orgf991e2b"><span class="section-number-3">1.2.</span> The propagation method:</h3>
+<div id="outline-container-org51d4899" class="outline-3">
+<h3 id="org51d4899"><span class="section-number-3">1.2</span> The propagation method:</h3>
 <div class="outline-text-3" id="text-1-2">
 <p>
 After a lot of thinking, this is what I came up with:
@@ -253,17 +282,58 @@ After a lot of thinking, this is what I came up with:
 <ul class="org-ul">
 <li>I implant the Aloe leaf into another Aloe leaf I cut off from the new Aloe plant I bought in order to do one or both of these things:
 <ul class="org-ul">
-<li>Regrow or regenerate the leaf using the nutrients and any possible healing that can be derived from the Aloe leaf&rsquo;s cellular technology</li>
+<li>Regrow or regenerate the leaf using the nutrients and any possible healing that can be derived from the Aloe leaf's cellular technology</li>
 <li>Have the cells of the Aloe leaf grow alongside the cells of the Aloe leaf into which it was implanted, and effectively have it become a part of the Aloe leaf (kind of like a graft and a tissue culture combined)</li>
 </ul></li>
 </ul>
+</div>
+</div>
+<div id="outline-container-orgd41bbfd" class="outline-3">
+<h3 id="orgd41bbfd"><span class="section-number-3">1.3</span> The procedure:</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+Materials I used
+</p>
+<ul class="org-ul">
+<li>Tape</li>
+<li>A blade</li>
+<li>A tissue paper</li>
+<li>The two Aloe leafs</li>
+</ul>
+
+<p>
+Step by step procedure of how I went about doing this:
+</p>
+<ol class="org-ol">
+<li>I cut a rectangular (without one of the shorter sides) slit into the back of the bigger Aloe leaf with the blade (without cutting into the front of the Aloe leaf)</li>
+<li>I inserted the smaller Aloe leaf which I wanted to propagate, into the bigger Aloe leaf</li>
+<li>I cleaned the surface of the bigger Aloe leaf of the Aloe gel, by using the tissue paper</li>
+<li>Finally, I put tape over and around the slit area, to ensure that the implant area heals properly without drying up</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgaaf65fe" class="outline-3">
+<h3 id="orgaaf65fe"><span class="section-number-3">1.4</span> How the Aloe leaf has been doing so far:</h3>
+<div class="outline-text-3" id="text-1-4">
+</div>
+<div id="outline-container-orgc0526d5" class="outline-4">
+<h4 id="orgc0526d5"><span class="section-number-4">1.4.1</span> First day after the implant</h4>
+<div class="outline-text-4" id="text-1-4-1">
+
+<div id="org1051571" class="figure">
+<p><img src="./imgs/day-1.jpg" alt="day-1.jpg" width="200" />
+</p>
+<p><span class="figure-number">Figure 1: </span>The Aloe leaf at Day 1</p>
+</div>
+</div>
 </div>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Ved Malandkar</p>
-<p class="date">Created: 2021-08-16 Mon 09:53</p>
+<p class="date">Created: 2021-08-16 Mon 08:10</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
 </html>
