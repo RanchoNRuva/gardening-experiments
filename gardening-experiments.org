@@ -2,6 +2,7 @@
 #+DESCRIPTION: My personal blog for documenting all my plant-related experiments and beyond.
 #+AUTHOR: Ved Malandkar
 #+EXPORT_FILE_NAME: index.html
+#+HTML_HEAD: <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
 
 * Aloe Vera Leaf Rooting
 ** The backstory:
